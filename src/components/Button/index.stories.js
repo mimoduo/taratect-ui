@@ -5,3 +5,21 @@ export default { title: 'Button' };
 export const base = () => (
   <Button>Button</Button>
 );
+
+export const startIcon = () => (
+  <Button startIcon="x">Button</Button>
+);
+
+export const endIcon = () => (
+  <Button endIcon="o">Button</Button>
+);
+
+export const styles = () => (
+  <Button
+    styles={{
+      backgroundColor: 'hotpink'
+    }}
+  >
+    Hotpink
+  </Button>
+);

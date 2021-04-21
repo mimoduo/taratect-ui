@@ -5,27 +5,34 @@ import { jsx } from '@emotion/react'
 const Button = ({ 
   children,
   disabled,
+  endIcon,
   onClick,
   role = "button",
-  rootCSS,
+  startIcon,
+  styles,
   type = "button"
 }) => {
   return(
     <button
       css={[
         {
+          alignItems: 'center',
           appearance: 'none',
+          cursor: 'pointer',
+          display: 'inline-flex',
           fontFamily: 'inherit',
           fontSize: 'inherit'
         },
-        rootCSS
+        styles
       ]}
       disabled={disabled}
       onClick={onClick}
       role={role}
       type={type}
     >
+      {startIcon && startIcon}
       {children}
+      {endIcon && endIcon}
     </button>
   );
 };

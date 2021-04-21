@@ -1,11 +1,20 @@
-import React from 'React';
+/** @jsxRuntime classic */
+/** @jsx jsx */
+
+import { jsx } from '@emotion/react'
 
 const Label = ({
   children,
-  htmlFor
+  htmlFor,
+  styles
 }) => {
   return(
-    <label htmlFor={htmlFor}>
+    <label 
+      css={[
+        styles
+      ]}
+      htmlFor={htmlFor}
+    >
       {children}
     </label>
   );
