@@ -6,9 +6,11 @@ const Button = ({
   children,
   disabled,
   endIcon,
+  endIconStyles,
   onClick,
   role = "button",
   startIcon,
+  startIconStyles,
   styles,
   type = "button"
 }) => {
@@ -30,9 +32,33 @@ const Button = ({
       role={role}
       type={type}
     >
-      {startIcon && startIcon}
+      {startIcon && (
+        <span
+          aria-hidden="true"
+          css={[
+            {
+              marginRight: 8
+            },
+            startIconStyles
+          ]}
+        >
+          {startIcon}
+        </span>
+      )}
       {children}
-      {endIcon && endIcon}
+      {endIcon && (
+        <span
+          aria-hidden="true"
+          css={[
+            {
+              marginLeft: 8
+            },
+            endIconStyles
+          ]}
+        >
+          {endIcon}
+        </span>
+      )}
     </button>
   );
 };
