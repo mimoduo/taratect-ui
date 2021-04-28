@@ -8,9 +8,12 @@ const Label = ({
   htmlFor,
   styles
 }) => {
-  return(
+  return (
     <label 
       css={[
+        {
+          display: 'block'
+        },
         styles
       ]}
       htmlFor={htmlFor}
