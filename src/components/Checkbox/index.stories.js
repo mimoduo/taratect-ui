@@ -21,7 +21,7 @@ export const base = () => (
   </>
 );
 
-export const styles = () => (
+export const styled = () => (
   <>
     <Checkbox 
       containerStyles={{

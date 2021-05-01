@@ -35,7 +35,7 @@ export const alignment = () => (
   </>
 );
 
-export const styles = () => (
+export const styled = () => (
   <>
     <Grid
       styles={{

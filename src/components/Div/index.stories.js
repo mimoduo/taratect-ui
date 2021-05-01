@@ -26,7 +26,7 @@ export const padding = () => (
   </>
 );
 
-export const styles = () => (
+export const styled = () => (
   <Div 
     styles={{
       backgroundColor: 'hotpink'

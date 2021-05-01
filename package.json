@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.13.16",
-    "@babel/preset-env": "^7.13.15",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
     "@babel/preset-react": "^7.13.13",
     "@emotion/react": "^11.1.5",
     "@storybook/addon-a11y": "^6.2.9",
@@ -20,7 +20,7 @@
     "docz": "^2.3.1",
     "docz-theme-default": "^1.2.0",
     "url-loader": "^4.1.1",
-    "webpack": "^5.36.1",
+    "webpack": "^5.36.2",
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {

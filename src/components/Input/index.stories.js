@@ -21,7 +21,7 @@ export const disabled = () => (
   </>
 );
 
-export const styles = () => (
+export const styled = () => (
   <>
     <Input 
       placeholder="Hotpink"

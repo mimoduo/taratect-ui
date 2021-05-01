@@ -36,7 +36,7 @@ export const endIconStyled = () => (
   </Button>
 );
 
-export const styles = () => (
+export const styled = () => (
   <Button
     styles={{
       backgroundColor: 'hotpink'
