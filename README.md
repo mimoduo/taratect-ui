@@ -11,7 +11,7 @@ yarn storybook
 
 ### Styling
 
-Every component created in Taratect has it's css prop from emotion merged with a various style props depending on the component:
+Every component created in Taratect has its css prop styled by default in taratect and overridden with an attribute for developers:
 
 ```
 import Button from '@taratect/Button';
@@ -37,3 +37,15 @@ import Button from '@taratect/Button';
 * [Webpack](https://webpack.js.org/)
 * [Emotion](https://emotion.sh/docs/introduction)
 * [Storybook](https://storybook.js.org/)
+
+### Currently Developed
+
+* Button
+* Checkbox
+* Div "Box"
+* Grid
+* Input
+* Label
+* Loader
+* Radio
+* Skeleton
