@@ -7,7 +7,7 @@ const Radio = ({
   containerStyles,
   children,
   id,
-  indicatorStyles,
+  iconStyles,
   inputStyles,
   name,
   value
@@ -52,12 +52,13 @@ const Radio = ({
             left: 0,
             border: '1px solid #000',
             borderRadius: '50%',
+            pointerEvents: 'none',
             transform: 'translate(0, -50%)',
             'input:checked ~ &': {
               background: '#000'
             }
           },
-          indicatorStyles
+          iconStyles
         ]}
       />
     </div>

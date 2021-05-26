@@ -7,7 +7,7 @@ const Checkbox = ({
   containerStyles,
   children,
   id,
-  indicatorStyles,
+  iconStyles,
   inputStyles,
   name,
   value
@@ -56,7 +56,7 @@ const Checkbox = ({
               background: '#000'
             }
           },
-          indicatorStyles
+          iconStyles
         ]}
       />
     </div>

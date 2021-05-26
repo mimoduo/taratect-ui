@@ -17,8 +17,6 @@
     "@storybook/react": "^6.2.9",
     "@tulipjs/eslint-config": "^1.1.1",
     "babel-loader": "^8.2.2",
-    "docz": "^2.3.1",
-    "docz-theme-default": "^1.2.0",
     "url-loader": "^4.1.1",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.6.0"

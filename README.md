@@ -11,7 +11,7 @@ yarn storybook
 
 ### Styling
 
-Every component created in Taratect has its css prop styled by default in taratect and overridden with an attribute for developers:
+Every html element in Taratect has a css attribute driven by [Emotion](https://emotion.sh/docs/introduction) that can be overwritten with its corresponding react attribute:
 
 ```
 import Button from '@taratect/Button';
@@ -48,4 +48,5 @@ import Button from '@taratect/Button';
 * Label
 * Loader
 * Radio
+* Select
 * Skeleton
